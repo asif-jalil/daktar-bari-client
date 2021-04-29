@@ -1,0 +1,46 @@
+.contact {
+  background-image: url(../../../images/contact-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 90px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.788);
+  z-index: -1;
+}
+
+.contact .section-title h3 {
+  color: #fff;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input {
+  height: 55px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-weight: 600;
+}
+
+.contact-form .error {
+  color: tomato;
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.appointment-modal .modal-content {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.appointment-modal .modal-title {
+  color: #f35e4d;
+}
+
+.appointment-modal .modal-footer,
+.appointment-modal .modal-header {
+  border: none;
+}
+
+.appointment-modal .modal-header {
+  margin-bottom: 20px;
+}
+
+.appointment-modal .modal-footer {
+  padding-right: 0;
+}
+
+.appointment-modal .main-btn {
+  padding: 12px 30px;
+}
+
+.appointment-modal .modal-content {
+  padding: 30px 40px;
+}
+
+.appointment-form .form-control {
+  height: 55px;
+}

@@ -1,0 +1,9 @@
+.available-appointment {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.available-appointment .section-title h3 {
+  color: #f67062;
+  font-size: 40px;
+}

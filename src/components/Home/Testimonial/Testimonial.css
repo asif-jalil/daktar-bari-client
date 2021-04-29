@@ -1,0 +1,22 @@
+.testimonial {
+  padding: 160px 0;
+  position: relative;
+}
+
+.testimonial .section-title {
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+
+.testimonial .section-title::before {
+  content: '';
+  position: absolute;
+  right: -50px;
+  top: -60px;
+  background-image: url(../../../images/quote-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 225px;
+}

@@ -1,0 +1,26 @@
+.infocard {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 150px;
+  padding: 0 20px;
+  transform: translateY(-55%);
+  -webkit-transform: translateY(-55%);
+  -moz-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  -o-transform: translateY(-55%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.info-icon {
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+.info-detail p {
+  margin-bottom: 0;
+}

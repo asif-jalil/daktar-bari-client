@@ -1,38 +1,86 @@
-.App {
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+
+.main-btn,
+.main-btn-sm {
+  padding: 16px 30px;
+  /* background: linear-gradient(to right, #19D3AE, #0FCFEC); */
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+  color: #fff;
+}
+
+.main-btn-sm {
+  padding: 11px 30px;
+}
+
+.main-btn:hover,
+.main-btn-sm:hover {
+  background-image: linear-gradient(15deg, #f83c87 0%, #f35e4d 74%);
+  color: #fff;
+}
+
+
+.icon-btn {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+  color: #fff;
   text-align: center;
+  font-size: 17px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title {
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-title h5 {
+  font-size: 22px;
+  /* color: #6ACECE; */
+  color: #f67062;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-title h3 {
+  color: #203047;
+  font-size: 45px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.error {
+  color: #f35e4d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme-text {
+  color: #f67062;
 }

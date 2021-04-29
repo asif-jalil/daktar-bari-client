@@ -1,0 +1,18 @@
+.available-appointment-card {
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.available-appointment-card h4 {
+  color: #f67062;
+  font-size: 22px;
+}
+
+.available-appointment-card .main-btn {
+  padding: 12px 30px;
+}

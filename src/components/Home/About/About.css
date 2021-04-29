@@ -1,0 +1,17 @@
+.about {
+  padding-bottom: 190px;
+}
+
+.about-detail h3 {
+  color: #203047;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.about-detail p {
+  line-height: 1.8;
+  color: #B2B2B2;
+  font-size: 18px;
+  margin-bottom: 30px;
+}

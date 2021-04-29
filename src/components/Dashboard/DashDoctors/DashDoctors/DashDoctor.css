@@ -1,0 +1,9 @@
+.dashboard-total-doctors {
+  position: relative;
+}
+
+.dashboard-total-doctors .spinner-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,22 @@
+.dashboard-doctor {
+  margin-bottom: 30px;
+}
+
+.dashboard-doctor img {
+  width: 100px;
+  height: 110px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.dashboard-doctor .card-body {
+  position: relative;
+}
+
+.dashboard-doctor .icon-btn,
+.dashboard-doctor .spinner-border {
+  position: absolute;
+  right: 1.25rem !important;
+  top: 1.25rem !important;
+  left: unset !important;
+}

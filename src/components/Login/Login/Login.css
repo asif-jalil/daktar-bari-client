@@ -1,0 +1,42 @@
+.login {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.login .card {
+  padding: 40px 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.login .form-control {
+  border: none;
+  border-bottom: 1px solid #a0a4a8;
+  height: 55px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.login p span {
+  cursor: pointer;
+}
+
+.login-img {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  max-width: 40%;
+}
+
+.login-img img {
+
+  max-width: 100%;
+}
